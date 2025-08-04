@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Selectors</title>
+  <style>
+    * {
+        border:0;
+        padding:0;
+    }
+
+    h1 {
+      color: navy;
+      font-size: 24px;
+    }
+
+    #main-box {
+      background-color: #f0f0f0;
+      padding: 10px;
+      border: 2px solid #000;
+    }
+
+    .highlight {
+      background-color: yellow;
+      padding: 6px;
+    }
+
+    h2, p.note {
+      color: darkgreen;
+    }
+
+    .container p {
+      color: gray;
+      font-size: 16px;
+    }
+
+    .container > span {
+      color: crimson;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: red;
+      text-decoration: underline;
+    }
+
+    .box-px {
+      width: 300px;
+      height: 120px;
+      background-color: lightblue;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Selectors and Hover</h1>
+
+  <div id="main-box">
+    <p class="highlight">This paragraph is styled using a class selector.</p>
+    <p class="note">This is part of a grouped selector.</p>
+  </div>
+
+  <div class="container">
+    <span>This is a child (direct) of container.</span>
+    <p>This is a descendant (nested) of container.</p>
+  </div>
+
+  <p>Check out <a href="#">this link</a> and hover over it.</p>
+
+  <h2>Absolute Sizing Example</h2>
+  <div class="box-px">Box </div>
+
+</body>
+</html>
