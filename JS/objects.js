@@ -1,7 +1,7 @@
 //Basic object creation
 // let laptop = {
-//   brand: "Dell",
-//   price: 55000,
+//   brand: "Acer",
+//   price: 160000,
 //   isAvailable: true
 // };
 
@@ -15,8 +15,8 @@
 
 //Modify and delete properties
 // let employee = {
-//   name: "John",
-//   position: "Developer",
+//   name: "Jack",
+//   position: "Full-Stack Developer",
 //   salary: 50000
 // };
 
@@ -30,9 +30,9 @@
 
 //Nested object
 // let user = {
-//   name: "Anita",
+//   name: "Ana",
 //   contact: {
-//     email: "anita@example.com",
+//     email: "ana@example.com",
 //     phone: "9876543210"
 //   }
 // };
