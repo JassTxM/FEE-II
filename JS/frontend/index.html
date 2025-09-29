@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD with Fetch + Json Server</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body class="p-4 md:p-8">
+    <div class="container">
+        <h1>Products</h1>
+        <p class="description">Manage your product catalog with this simple CRUD interface.</p>
+        <ul id="product-list" class="product-list">
+            <!-- Product items will be dynamically added here -->
+        </ul>
+
+        <div class="add-product-container">
+            <h2>Add Product</h2>
+            <div class="input-group">
+                <input type="text" id="title" placeholder="Title">
+                <input type="text" id="category" placeholder="Category">
+                <input type="number" id="price" placeholder="Price">
+                <button onclick="addProduct()">Add</button>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
